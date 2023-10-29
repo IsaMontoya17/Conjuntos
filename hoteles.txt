@@ -1,0 +1,12 @@
+1, The Shining Hotel, Montaña, 100
+2, Jurassic Lodge, Rural, 80
+3, Forest Gump Retreat, Montaña, 60
+4, Beachfront Titanic Resort, Playa, 120
+5, The Lord of the Rings Inn, Montaña, 70
+6, Rural Shawshank Getaway, Rural, 50
+7, The Great Gatsby Mansion, Playa, 140
+8, Mountain View Matrix Inn, Montaña, 90
+9, Pulp Fiction Lodge, Rural, 45
+10, The Titanic Seaside Getaway, Playa, 130
+11, The Hobbit Inn, Montaña, 75
+12, The Silence of the Lambs Lodge, Rural, 55
