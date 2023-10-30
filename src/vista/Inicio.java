@@ -54,19 +54,6 @@ public class Inicio {
 
         } while (opc != 3);
 
-        cargarHotelesDesdeArchivo(hoteles);
-
-        System.out.println("Conjunto de hoteles sin ordenar:");
-        mostrarHoteles(hoteles);
-
-        zonaElegida = obtenerZonaDeseada();
-
-        HashSet<Hotel> hotelesZonaElegida = obtenerHotelesDeZona(hoteles, zonaElegida);
-        ArrayList<Hotel> hotelesOrdenadosPorPrecio = ordenarHotelesPorPrecio(hotelesZonaElegida);
-
-        System.out.println("\nHoteles en la zona " + zonaElegida + " ordenados por precio:");
-        mostrarHoteles(hotelesOrdenadosPorPrecio);
-
     }//CIERRE DEL MAIN
 
     private static void cargarHotelesDesdeArchivo(ArrayList<Hotel> hoteles) {
@@ -147,12 +134,6 @@ public class Inicio {
         Collections.sort(hotelesOrdenados, (h1, h2) -> Integer.compare(h1.getPrecio(), h2.getPrecio()));
         
         return hotelesOrdenados;
-        
-    }//CIERRE DEL METODO
-
-    private static boolean validarZona(String zona) {
-        
-        return zona.equalsIgnoreCase("Playa") || zona.equalsIgnoreCase("Montaña") || zona.equalsIgnoreCase("Rural");
         
     }//CIERRE DEL METODO
 
